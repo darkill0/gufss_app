@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0D1117</color>
+    <color name="bg_card">#161B22</color>
+    <color name="bg_card2">#1C2128</color>
+    <color name="accent_green">#2EA043</color>
+    <color name="accent_green_light">#3FB950</color>
+    <color name="accent_orange">#E3902B</color>
+    <color name="accent_red">#DA3633</color>
+    <color name="accent_blue">#388BFD</color>
+    <color name="text_primary">#E6EDF3</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="text_hint">#6E7681</color>
+    <color name="divider">#21262D</color>
+    <color name="badge_bg">#DA3633</color>
+    <color name="gold">#D29922</color>
+    <color name="nav_bg">#161B22</color>
+    <color name="input_bg">#21262D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="status_urgent">#DA3633</color>
+    <color name="status_important">#E3902B</color>
+    <color name="status_work">#388BFD</color>
+    <color name="status_done">#2EA043</color>
+</resources>

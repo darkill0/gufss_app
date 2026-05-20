@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="24dp">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_back"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Back"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_factor_title"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_factor_desc"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="32dp"/>
+
+        <LinearLayout
+            android:id="@+id/llPinCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/pin1"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/pin2"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/pin3"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/pin4"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/pin5"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/pin6"
+                android:layout_width="44dp"
+                android:layout_height="56dp"
+                android:background="@drawable/input_bg"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/text_primary"
+                android:maxLength="1"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/btn_confirm"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:background="@drawable/btn_green"/>
+
+        <TextView
+            android:id="@+id/tvResend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_code"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
