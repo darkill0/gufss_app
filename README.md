@@ -1,1 +1,1 @@
-danya otdai deneg
+Mobile app for GUFFS
